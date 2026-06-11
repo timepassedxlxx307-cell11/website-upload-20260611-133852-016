@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 欧美电影在线免费看 - 高清中字每日更新极速播放</title>
+  <meta name="description" content="搜索欧美电影、高清中字影片、每日更新内容，支持按片名、年份、地区、类型、标签查找。">
+  <meta name="keywords" content="欧美电影,在线免费看,高清中字,每日更新,极速播放,免费观看,欧美大片,中文字幕,高清画质,在线播放,搜索,影片搜索">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/app.css">
+  
+</head>
+<body data-site-root="./">
+  
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="欧美电影在线 首页">
+      <span class="brand-icon" aria-hidden="true">▶</span>
+      <span class="brand-text">欧美电影在线</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./rank.html">排行榜</a><a class="nav-link" href="./all.html">片库</a><a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <label class="visually-hidden" for="header-search-search">搜索视频</label>
+      <input id="header-search-search" name="q" type="search" placeholder="搜索视频..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" aria-label="打开移动导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input name="q" type="search" placeholder="搜索视频..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./categories.html">分类</a><a class="mobile-link" href="./rank.html">排行榜</a><a class="mobile-link" href="./all.html">片库</a><a class="mobile-link active" href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+  <main>
+
+<section class="page-hero small-hero">
+  <div class="page-shell">
+    <p class="eyebrow">SEARCH</p>
+    <h1>搜索影片</h1>
+    <p>输入影片名、地区、年份、类型或标签，快速查找全站静态片库内容。</p>
+  </div>
+</section>
+<section class="page-shell content-section">
+  <form class="search-page-form" id="search-page-form">
+    <input id="search-query" name="q" type="search" placeholder="输入关键词，例如：惊悚、2025、美国、爱情" autocomplete="off">
+    <button type="submit">搜索</button>
+  </form>
+  <div class="search-count" id="search-count"></div>
+  <div class="movie-grid" id="search-results"></div>
+</section>
+  </main>
+  
+<footer class="site-footer">
+  <div class="footer-grid page-shell">
+    <section class="footer-about">
+      <a class="brand footer-brand" href="./index.html">
+        <span class="brand-icon" aria-hidden="true">▶</span>
+        <span class="brand-text">欧美电影在线</span>
+      </a>
+      <p>欧美电影在线免费观看，高清中字每日更新，极速播放不卡顿。提供最新欧美大片、经典影片，高清画质，中文字幕，免费在线观看。</p>
+    </section>
+    <section>
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="./index.html">首页</a></li><li><a href="./categories.html">分类总览</a></li><li><a href="./rank.html">热播排行</a></li><li><a href="./all.html">全量片库</a></li><li><a href="./search.html">搜索影片</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>服务支持</h2>
+      <ul>
+        <li><a href="./about.html">关于我们</a></li><li><a href="./support.html">帮助中心</a></li><li><a href="./copyright.html">版权声明</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>频道入口</h2>
+      <ul>
+        <li><a href="./category/oumei-movie.html">欧美电影</a></li><li><a href="./category/hd-featured.html">高清精选</a></li><li><a href="./category/action-adventure.html">动作冒险</a></li><li><a href="./category/love-drama.html">爱情剧情</a></li><li><a href="./category/comedy-fantasy.html">喜剧奇幻</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="footer-bottom page-shell">
+    <p>© 2026 欧美电影在线. 保留所有权利。</p>
+    <p><a href="./sitemap.html">站内地图</a> · <a href="./sitemap.xml">XML Sitemap</a></p>
+  </div>
+</footer>
+  <script src="./assets/js/site.js"></script>
+  
+  <script src="./assets/js/search-index.js"></script>
+  <script src="./assets/js/search.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

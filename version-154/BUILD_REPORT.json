@@ -1,0 +1,26 @@
+{
+  "source_zip": "project-bolt-sb1-a9abeyef.zip",
+  "parsed_movie_records": 2000,
+  "generated_movie_records": 2000,
+  "hls_sources_extracted_from_uploaded_js": 20,
+  "movie_count": 2000,
+  "detail_page_count": 2000,
+  "html_page_count": 2019,
+  "category_unique_count": 2000,
+  "category_total_count": 2000,
+  "baidu_missing": [],
+  "detail_player_missing": [],
+  "category_counts": {
+    "oumei-movie": 200,
+    "hd-featured": 200,
+    "action-adventure": 200,
+    "love-drama": 200,
+    "comedy-fantasy": 200,
+    "suspense-thriller": 200,
+    "sci-fi-fantasy": 200,
+    "family-healing": 200,
+    "asian-selection": 200,
+    "documentary-humanity": 200
+  },
+  "cover_rule": "第 N 条影片使用 ((N - 1) % 150) + 1.jpg"
+}
